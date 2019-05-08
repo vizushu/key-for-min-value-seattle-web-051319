@@ -7,20 +7,22 @@ def key_for_min_value(name_hash)
     if value == 1
       return name
     else
+      return name
+    end
   end
 end
 
 
-# def key_for_min_value(name_hash)
-#   lowest_value = 0
-#   lowest_key = nil
+def key_for_min_value(name_hash)
+  lowest_value = 0
+  lowest_key = nil
 
 
-# end 	  name_hash.each do |key,value|
-#     if lowest_value == 0 || value < lowest_value
-#       lowest_value = value
-#       lowest_key = key
-#     end
-#   end
-#   lowest_key
-# end
+end 	  name_hash.each do |key,value|
+    if lowest_value == 0 || value < lowest_value
+      lowest_value = value
+      lowest_key = key
+    end
+  end
+  lowest_key
+end
